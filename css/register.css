@@ -1,0 +1,137 @@
+/*注册页面样式表*/
+.w {
+	width: 1200px;
+	margin: auto;
+}
+/*header start*/
+.header {
+	height: 82px;
+	border-bottom: 2px solid #b1191a;
+}
+.logo {
+	padding: 15px 0 0 5px;
+}
+/*header end*/
+/*registerarea start*/
+.registerarea {
+	width: 1198px;
+	height: 520px;
+	margin-top: 20px;
+	border: 1px solid #ccc;
+}
+.reg-hd {
+	height: 40px;
+	line-height: 40px;
+	background-color: #ececec;
+	border-bottom: 1px solid #ccc;
+}
+.reg-hd h3 {
+	float: left;
+	padding-left: 10px;
+	font-size: 18px;
+	font-weight: 400;
+	color: #333;
+}
+.reg-hd p {
+	float: right;
+	padding-right: 10px;
+	font-size: 14px;
+	color: #333;
+}
+.reg-hd a {
+	color: #df3033;
+}
+.reg-form {
+	width: 590px;
+	height: 368px;
+	margin: 60px auto;
+}
+.reg-form-r {
+	display: inline-block;
+	width: 100px;
+	height: 36px;
+	line-height: 36px;
+	font-size: 14px;
+	text-align: right;
+	color: #4c4c4c;
+}
+.reg-form input {
+	width: 238px;
+	height: 38px;
+	margin: 0 0 20px 10px;
+	border: 1px solid #ccc;
+}
+.error {
+	margin-left: 10px;
+	color: #df3033;
+}
+.success {
+	margin-left: 10px;
+	color: #40b83f;
+}
+.error em,
+.success em {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin-right: 5px;
+	vertical-align: middle;
+}
+.error em {
+	background-image: url(../img/error.png);
+}
+.success em {
+	background: url(../img/success.png) no-repeat;
+}
+.pwd {
+	position: relative;
+	margin-bottom: 45px;
+}
+.safe {
+	position: absolute;
+	bottom: -20px;
+	left: 175px;
+	color: #bebebe;
+}
+.ruo,
+.zhong,
+.qiang {
+	padding: 0 12px;
+	color: #fff;
+}
+.ruo {
+	background-color: #df3033;
+}
+.zhong {
+	background-color: #40b83f;
+}
+.qiang {
+	background-color: #f79100;
+}
+.deal {
+	margin-left: 110px;
+}
+.deal input {
+	width: 14px;
+	height: 13px;
+}
+.deal em {
+	color: #1ba1e6;
+}
+.finish {
+	width: 200px;
+	height: 34px;
+	margin: 10px 0 0 130px;
+	background-color: #c81623;
+	border: none;
+	color: #fff;
+}
+/*registerarea end*/
+/*footer start*/
+.footer {
+	text-align: center;
+}
+.links {
+	margin: 20px 0;
+}
+/*footer end*/

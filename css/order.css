@@ -1,0 +1,272 @@
+/*提交订单样式表*/
+
+
+/*header start*/
+
+.header h3 {
+    position: absolute;
+    left: 195px;
+    top: 43px;
+    font-size: 19px;
+    font-weight: 400;
+    color: #333;
+}
+
+.search {
+    left: 760px;
+}
+
+.search input {
+    width: 340px;
+}
+
+
+/*header end*/
+
+
+/*order start*/
+
+.order_hd {
+    height: 36px;
+}
+
+.order_hd h3 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.order_bd {
+    padding: 40px 26px 0;
+    border: 1px solid #ccc;
+}
+
+.order_bd div {
+    padding: 0 24px;
+    border-bottom: 1px solid #ccc;
+}
+
+.order_bd div:last-child {
+    border: none;
+}
+
+.userinfo dl {
+    float: left;
+}
+
+.userinfo dt,
+.payway dt,
+.receipt dt,
+.list-hd,
+.list-way dt,
+.list-con h3 {
+    height: 32px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #333;
+}
+
+.userinfo dd,
+.receipt dd,
+.list-way dd {
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 8px;
+    padding-left: 20px;
+}
+
+.userinfo em,
+.locale em,
+.list-way em {
+    display: block;
+    float: left;
+    width: 140px;
+    height: 26px;
+    line-height: 26px;
+    border: 1px solid #c81623;
+    text-align: center;
+}
+
+.userinfo p,
+.list-way p {
+    float: left;
+    margin-left: 10px;
+}
+
+.userinfo a,
+.list-way a {
+    float: right;
+    color: #1474af;
+}
+
+.locale em {
+    margin-right: 10px;
+    border-color: #ccc;
+}
+
+.locale p {
+    height: 26px;
+    line-height: 26px;
+    margin: 20px;
+}
+
+.payway dl,
+.list ul,
+.receipt dl {
+    margin: 20px 0;
+}
+
+.payway dd {
+    float: left;
+    width: 96px;
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.payway .first {
+    margin-left: 20px;
+    border-right: none;
+}
+
+.payway .current {
+    margin-left: 20px;
+    border-color: #c81623;
+}
+
+.payway .more {
+    border: none;
+}
+
+.receipt a {
+    margin-left: 20px;
+    color: #1474af;
+}
+
+.receipt em {
+    margin-left: 20px;
+}
+
+.receipt strong {
+    margin-left: -20px;
+    font-size: 14px;
+}
+
+.order_bd .list {
+    padding: 0;
+}
+
+.list-hd {
+    padding: 0 24px;
+}
+
+.list-way {
+    height: 100px;
+    padding: 0 24px;
+    background-color: #f4f4f4;
+}
+
+.list-way dt {
+    padding-top: 15px;
+}
+
+.list-con {
+    height: 130px;
+    padding: 20px 24px 0;
+    background-color: #feedef;
+}
+
+.list-con img {
+    float: left;
+    margin-left: 20px;
+}
+
+.list-con p {
+    position: relative;
+    float: left;
+    width: 350px;
+    height: 72px;
+    margin-left: 50px;
+}
+
+.list-con p em {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #c81623;
+}
+
+.nub {
+    float: right;
+}
+
+.nub i,
+.nub strong {
+    margin-right: 30px;
+}
+
+.nub i {
+    color: #c81623;
+}
+
+.total {
+    height: 96px;
+}
+
+.total ul {
+    float: right;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+.total em,
+.total i {
+    display: inline-block;
+    width: 130px;
+    text-align: right;
+}
+
+.price {
+    height: 70px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+}
+
+.price ul {
+    float: right;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+.price p {
+    float: right;
+}
+
+.price em {
+    color: #666;
+}
+
+.price i {
+    font-size: 16px;
+    color: #c81623;
+}
+
+.orderbtn {
+    height: 90px;
+}
+
+.orderbtn button {
+    float: right;
+    width: 148px;
+    height: 46px;
+    line-height: 46px;
+    margin: 25px;
+    background-color: #c81623;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    border: none;
+}
+
+
+/*order end*/

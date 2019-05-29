@@ -1,0 +1,133 @@
+/*登陆页面样式表*/
+.w {
+	width: 1200px;
+	margin: auto;
+}
+/*header start*/
+.header {
+	height: 82px;
+}
+.logo {
+	padding: 15px 0 0 5px;
+}
+/*header end*/
+/*login start*/
+.loginarea {
+	height: 486px;
+	background: #7e00ff url(../img/loginbg.png) no-repeat top;
+}
+.loginform {
+	position: relative;
+	top: 62px;
+	left: 707px;
+	width: 300px;
+	height: 322px;
+	padding: 20px 40px;
+	background-color: #fff;
+}
+.login_hd li {
+	float: left;
+	font-size: 18px;
+	color: #666;
+}
+.login_hd .current {
+	color: #c81623;
+}
+.spacer {
+	width: 1px;
+	height: 20px;
+	margin: 5px 70px 0;
+	background-color: #666;
+}
+.login_bd li {
+	margin-top: 18px;
+}
+.login_bd p {
+	height: 24px;
+	line-height: 24px;
+	padding-left: 10px;
+	background-color: #fffdee;
+	border: 1px solid #f5eecf;
+}
+.login_bd input {
+	float: left;
+	width: 250px;
+	height: 34px;
+	padding-left: 10px;
+	border: 1px solid #cfcdcd;
+	border-left: none;
+	font-size: 14px;
+	color: #cfcdcd;
+}
+.user,
+.pwd {
+	float: left;
+	display: block;
+	width: 36px;
+	height: 34px;
+	background: #cfcdcd url(../img/icons.png) no-repeat;
+	border: 1px solid #cfcdcd;
+}
+.user {
+	background-position: -10px -200px;
+}
+.pwd {
+	background-position: -70px -200px;
+}
+.auto input {
+	width: 12px;
+	height: 12px;
+	margin-top: 3px;
+}
+.auto em {
+	float: left;
+}
+.auto a {
+	float: right;
+	font-weight: 700;
+}
+.login_bd button {
+	width: 300px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #c81623;
+	border: none;
+	font-size: 16px;
+	color: #fff;
+}
+.icons em {
+	float: left;
+	display: block;
+	width: 32px;
+	height: 32px;
+	margin-right: 20px;
+	background: url(../img/regetype.png) no-repeat;
+}
+.icons .qq {
+	background-position: -19px -8px;
+}
+.icons .weibo {
+	background-position: -71px -8px;
+}
+.icons .zhifubao {
+	background-position: -123px -8px;
+}
+.icons .weixin {
+	background-position: -175px -8px;
+}
+.icons a {
+	float: right;
+	height: 32px;
+	line-height: 32px;
+	font-size: 14px;
+	color: #1474af;
+}
+/*login end*/
+/*footer start*/
+.footer {
+	text-align: center;
+}
+.links {
+	margin: 20px 0;
+}
+/*footer end*/
